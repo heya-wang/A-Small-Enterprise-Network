@@ -30,6 +30,7 @@ The objective of this lab is to model a structured and security-oriented enterpr
   - Internet Gateway
   - Implements ACL-based firewall policies
   - Controls inbound/outbound traffic
+  - NAT (Network Address Translation) configured for internet access
 
 ---
 ## Network Zones
@@ -109,6 +110,7 @@ This ensures proper VLAN tagging and separation across switching layers.
 - Static Routing
 - Access Control Lists (ACL)
 - DHCP Relay
+- NAT (PAT / Static NAT)
 - SSH v2 with RSA encryption
 
 ---
@@ -116,7 +118,6 @@ This ensures proper VLAN tagging and separation across switching layers.
 ## Future Improvements
 
 - Replace static routing with OSPF
-- Implement NAT overload on Edge Router
 - Introduce stateful firewall inspection
 - Add redundancy (HSRP / VRRP)
 - Implement centralized logging (Syslog)
