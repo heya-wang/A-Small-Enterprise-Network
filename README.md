@@ -10,6 +10,8 @@ The objective of this lab is to model a structured and security-oriented enterpr
 ---
 
 ## Network Architecture
+### Network Topology
+![Network Topology](network_topology.png)
 
 ### Core Components
 
